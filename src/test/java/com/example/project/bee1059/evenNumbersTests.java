@@ -13,7 +13,7 @@ class SomadorTests {
 	@DisplayName("even Numbers")
 	void addsTenAndNine() {
 		Even even = new Even();
-		assertEquals([2,4,6,8] , even.evenNumbers(10), "Numeros pares de 0 a 10");
+		assertEquals(2,4,6,8 , even.evenNumber(10), "Numeros pares de 0 a 10");
 	}
 
 }
