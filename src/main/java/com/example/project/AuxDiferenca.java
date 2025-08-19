@@ -10,10 +10,10 @@
 
 package com.example.project;
 
-public class Calculator {
+public class AuxDiferenca {
 
-	public int add(int a, int b) {
-		return a + b;
-	}
+	public int calcularDiferenca(int A, int B, int C, int D) {
+        return (A * B - C * D);
+    }
 
 }
