@@ -10,10 +10,15 @@
 
 package com.example.project;
 
-public class AuxDiferenca {
+public class ConversorIdade {
 
-	public int calcularDiferenca(int A, int B, int C, int D) {
-        return (A * B - C * D);
+    public int[] converter(int diasTotais) {
+        int anos = diasTotais / 365;
+        diasTotais = diasTotais % 365;
+
+        int meses = diasTotais / 30;
+        int dias = diasTotais % 30;
+
+        return new int[] {anos, meses, dias};
     }
-
 }
