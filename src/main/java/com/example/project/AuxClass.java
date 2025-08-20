@@ -10,10 +10,10 @@
 
 package com.example.project;
 
-public class Calculator {
+public class AuxClass {
 
-	public int add(int a, int b) {
-		return a + b;
+	public double calculaSalario(double salarioFixo, int totalVendas){
+		return salarioFixo + (totalVendas * 0.15)
 	}
 
 }
